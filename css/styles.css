@@ -2,9 +2,22 @@
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
+	overflow-x: hidden;
 }
 body{
+	width: 100vw;
+	height: 100vh;
 	background: #ff4b1f;  /* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #ff9068, #ff4b1f);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #ff9068, #ff4b1f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.main-container{
+	width: 80vw;
+	margin: auto;
+	border: 0.5px solid rgba(0, 0, 0, .5);
+	margin-top: 5%;
+}
+.header{
+	margin-bottom: 15px;
+	border-bottom: 1.5px solid grey;
 }
