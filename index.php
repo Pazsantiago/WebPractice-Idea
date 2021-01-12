@@ -13,25 +13,32 @@
 		<div class="container-headersection">
 			<header class="header">
 			
-			<img src="" alt="">
+			<img src="img/logo.jpg" id="header-logoimg" alt="">
 
-			<nav>
-				<ul>
-					<li class="nav-container__link">Home <i class="fas fa-caret-down"></i></li>
-					<li class="nav-container__link">Pages <i class="fas fa-caret-down"></i></li>
-					<li class="nav-container__link">Portfolio <i class="fas fa-caret-down"></i></li>
-					<li class="nav-container__link">Features <i class="fas fa-caret-down"></i></li>
-					<li class="nav-container__link">Demos <i class="fas fa-caret-down"></i></li>
-					<li class="nav-container__link">Shop <i class="fas fa-caret-down"></i></li>
-					<li class="nav-container__link">Blog <i class="fas fa-caret-down"></i></li>
+			<nav class="nav-container">
+				<ul class="nav-list">
+					<li class="nav-container__link"><a href="#">Home</a> <i class="fas fa-caret-down"></i></li>
+					<li class="nav-container__link"><a href="#">Pages</a> <i class="fas fa-caret-down"></i></li>
+					<li class="nav-container__link"><a href="#">Portfolio</a> <i class="fas fa-caret-down"></i></li>
+					<li class="nav-container__link"><a href="#">Features</a> <i class="fas fa-caret-down"></i></li>
+					<li class="nav-container__link"><a href="#">Demos</a> <i class="fas fa-caret-down"></i></li>
+					<li class="nav-container__link"><a href="#">Shop</a> <i class="fas fa-caret-down"></i></li>
+					<li class="nav-container__link" id="link-border"><a href="#">Blog</a> <i class="fas fa-caret-down"></i></li>
+					<a href="#"><i class="fas fa-search"></i></a>
 				</ul>
-				<i class="fas fa-search"></i>
 			</nav>
-
 			</header>
 
-			<section>
-				
+			<section class="first-section">
+				 <h1>Lorem ipsum, dolor.</h1>
+				 <p>Lorem ipsum dolor sit amet consectetur.</p>
+				 <div class="section-buttons">
+
+				 	<button class="section-button__one">Lorem, ipsum dolor.</button>
+
+				 	<button class="section-button__two">Lorem ipsum, dolor.</button>
+
+				 </div>
 			</section>
 
 		</div>
