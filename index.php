@@ -26,9 +26,10 @@
 					<li class="nav-container__link"><a href="#" class="a-effect">Demos</a> <i class="fas fa-caret-down"></i></li>
 					<li class="nav-container__link"><a href="#" class="a-effect">Shop</a> <i class="fas fa-caret-down"></i></li>
 					<li class="nav-container__link" id="link-border"><a href="#" class="a-effect">Blog</a> <i class="fas fa-caret-down"></i></li>
-					<a href="#"><i class="fas fa-search"></i></a>
 				</ul>
 			</nav>
+				<a href="#"><i class="fas fa-search"></i></a>
+				<i class="fas fa-bars" id="menu-item" onclick="MostrarMenu();"></i>
 			</header>
 
 			<section class="first-section">
@@ -82,6 +83,6 @@
 		</footer>
 
 	</main>
-
+	<script src="js/index.js"></script>
 </body>
 </html>
