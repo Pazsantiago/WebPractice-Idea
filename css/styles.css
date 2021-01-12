@@ -17,6 +17,7 @@ body{
 	border: 0.5px solid rgba(0, 0, 0, .5);
 	margin-top: 5%;
 	font-family: 'Oswald', sans-serif;
+	margin-bottom: 5%;
 }
 .header{
 	height: 150px;
@@ -115,4 +116,40 @@ body{
 .second-section{
 	height: 40vh;
 	background-color: white;
+	display: flex;
+	align-items: center;
+}
+.users-container{
+	margin-top: 20px;
+	padding: 1em;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 15px;
+	text-align: center;
+	transition: 1s ease-out;
+}
+.users-container h4{
+	font-size: 16px;
+}
+.users-container p{
+	font-size: 14px;
+}
+.users-container i{
+	color: #C70039;
+	background-color: #D8D8D8;
+	width: 60px;
+	padding: 20px;
+	border-radius: 30px; 
+}
+.users-container div:hover{
+	transform: scale(1.2);
+	padding: 0 2px;
+}
+footer{
+	margin-bottom: 0;
+	width: 100%;
+	padding: 5px;
+	text-align: center;
+	color: #DC7633;
+	background-color: #1B2631;
 }

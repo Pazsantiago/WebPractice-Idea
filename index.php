@@ -46,8 +46,40 @@
 		</div>
 
 		<section class="second-section">
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, reprehenderit. Placeat accusantium iusto molestias. Nisi, nam nesciunt eum! Eius, ex?</p>
+			<div class="users-container">
+				<div>
+					<i class="fas fa-hands"></i>
+					<h4>Lorem, ipsum, dolor.</h4>
+				
+					<p>Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Quaerat, molestiae?</p>
+				</div>
+
+				<div>
+					<i class="fas fa-code-branch"></i>
+					<h4>Lorem, ipsum, dolor.</h4>
+				
+					<p>Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Quaerat, molestiae?</p>
+				</div>
+
+				<div>
+					<i class="fas fa-gift"></i>
+					<h4>Lorem, ipsum, dolor.</h4>
+				
+					<p>Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Quaerat, molestiae?</p>
+				</div>
+				<div>
+					<i class="fab fa-gratipay"></i>
+					<h4>Lorem, ipsum, dolor.</h4>
+				
+					<p>Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Quaerat, molestiae?</p>
+				</div>
+
+			</div>
 		</section>
+	
+		<footer>
+			&copy; Copyright 2021 Paz Santiago
+		</footer>
 
 	</main>
 
